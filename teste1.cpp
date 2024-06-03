@@ -93,7 +93,7 @@ void buildHuffTree(const wstring& text){
 
 
     int top_index = -1;
-    wcout << L"\nString decriptografada: ";
+    wcout << L"\nString despirocada: ";
     while(top_index < (int)str.size() - 2){
         decode(root, top_index, str);
     }
